@@ -74,10 +74,10 @@ export const Main = () => {
                             className="feature-video"
                             onLoadedData={handleVideoLoad}
                             preload="metadata"
-                            poster="/src/assets/images/video-poster.jpg" // Añade una imagen de poster
+                            poster="/images/video-poster.jpg" // Ruta corregida
                         >
                             <source 
-                                src="/src/assets/images/apple.mp4" 
+                                src="/apple.mp4"  // Ruta corregida
                                 type="video/mp4"
                             />
                             Tu navegador no soporta videos HTML5.
@@ -105,7 +105,7 @@ export const Main = () => {
                         </div>
                         <div className="col-lg-6">
                             <div className="showcase-image parallax-effect">
-                                <img src="/src/assets/images/showcase.jpg" alt="Showcase" className="img-fluid rounded shadow" />
+                                <img src="/images/showcase.jpg" alt="Showcase" className="img-fluid rounded shadow" /> {/* Ruta corregida */}
                             </div>
                         </div>
                     </div>
